@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro|Open Sans|Lato|Montserrat');
+body{
+    margin:0;
+    background-color: rgb(255, 255, 255);
+    padding: 3% 0 0 0;
+    display: block;
+}
+#main{
+    width: 50vmax;
+    height: 40vmax;
+    margin: auto;
+    border-radius: 0.7vmax;
+    border-color:  rgba(66, 93, 212, 0.87);
+    border-width: 1vmax;
+    border-style: solid;
+    box-shadow: 0 0.5vmax 0.7vmax rgb(0, 0, 0);
+    background-color: white;
+}
+.top{
+    text-align: center;
+    user-select: none;
+}
+.top2{
+    padding: 3% 0 2% 0;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    font-size: 1.5vmax;
+}
+.top3{
+    font-size: 200%;
+    font-family: 'Source Sans Pro';
+    padding: 0 0 0.7% 0;
+}
+.top4{
+    font-size: 100%;
+    padding: 0 0 4% 0;
+    font-family: 'Source Sans Pro';
+}
+#inp{
+    padding:0 0 0 1.5%;
+    border-style: solid;
+    font-family: 'Montserrat';
+    width: 30%;
+    height: 2.5vmax;
+    border-width: 1px;
+    font-size: 0.8vmax;
+    border-color: rgba(128, 128, 128, 0.623);
+    border-radius: 2vmax;
+}
+#btn{
+    user-select: none;
+    cursor: pointer;
+    border-style: none;
+    font-family: 'Lato';
+    width: 20%;
+    box-shadow: 0 0.3vmax 0.7vmax rgba(110, 136, 250, 0.87);
+    font-size: 0.9vmax;
+    margin-left: 1%;
+    color: white;
+    background-color: rgb(110, 136, 250);
+    height: 2.5vmax;
+    border-radius: 2vmax;
+}
+#inp:focus{
+    background-color: rgb(61, 61, 61);
+    color: rgb(192, 192, 192);
+}
