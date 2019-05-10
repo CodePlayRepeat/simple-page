@@ -16,6 +16,15 @@ body{
     box-shadow: 0 0.5vmax 0.7vmax rgb(0, 0, 0);
     background-color: white;
 }
+#sc{
+    text-align: center;
+    margin:auto;
+    width: 30%;
+    background: red;
+    height: 5vmax;
+    display: none;
+    padding: 1.7vmax 2vmax 1vmax 2vmax;
+}
 .top{
     text-align: center;
     user-select: none;
